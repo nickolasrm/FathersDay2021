@@ -13,11 +13,13 @@ interface ProfileSectionProps {
   name: string,
   description: string,
   color?: string,
-  backgroundColor?: string
+  backgroundColor?: string,
+  onVisible?: () => void
 }
 
 const TextSection: React.FC<ProfileSectionProps> = (props) => {
   return (<SectionContainer className={Style.Container}
+    onVisible={props.onVisible}
     color={props.color}
     backgroundColor={props.backgroundColor}>
     <ProfileImage className={Style.Image} file={props.image} alt="Profile picture of [NAME]" />
