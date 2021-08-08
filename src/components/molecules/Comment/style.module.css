@@ -1,0 +1,17 @@
+.Container 
+{
+	width: 100%;
+	height: 35%;
+
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	
+	padding: 5vmin;
+	box-sizing: border-box;
+}
+
+.Comment
+{
+	flex: 1;
+}

@@ -1,0 +1,22 @@
+.Container
+{
+	height: 100%;
+
+	padding: 10vmin;
+	padding-bottom: 5vmin;
+	box-sizing: border-box;
+
+	flex-flow: column;
+	justify-content: flex-end;
+	align-items: center;
+
+	scroll-snap-align: start;
+}
+
+@media (orientation: landscape)
+{
+	.Container
+	{
+		padding: 5vh 8vw 5vh 8vw;
+	}
+}

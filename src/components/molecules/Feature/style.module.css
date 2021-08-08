@@ -1,0 +1,21 @@
+.Feature
+{
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+
+	margin: 0rem 2rem 1rem 2rem;
+}
+
+.Feature svg 
+{
+	width: 5rem;
+	height: 5rem;
+
+	margin-bottom: 1rem;
+}
+
+.Feature p
+{
+	margin: 0;
+}
