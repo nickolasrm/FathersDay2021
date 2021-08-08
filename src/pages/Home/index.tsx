@@ -1,33 +1,38 @@
 import React from 'react'
 import HomeTemplate from '../../templates/HomeTemplate'
 import TextSection from '../../components/organisms/TextSection'
+import { useTranslation } from 'react-i18next'
 
 const Home: React.FC = (props) => {
+  const { i18n, t } = useTranslation()
+
   return (
     <HomeTemplate
-      title="A new concept of car"
-      credits="Love you."
+      title={t('title')}
+      credits={t('credits')}
 
-      gearTitle="443HP"
-      gearSubtitle="An example of power"
-      lightningTitle="Electric"
-      lightningSubtitle="Always available"
-      selfDrivenTitle="Self Driven"
-      selfDrivenSubtitle="Takes care of you"
+      gearTitle={t('features.1.title')}
+      gearSubtitle={t('features.1.subtitle')}
+      lightningTitle={t('features.2.title')}
+      lightningSubtitle={t('features.2.subtitle')}
+      selfDrivenTitle={t('features.3.title')}
+      selfDrivenSubtitle={t('features.3.subtitle')}
 
-      profileImage="test.png"
-      profileName="Father"
-      profileDescription={'[name] is our favorite first and unique project.' +
-        ' We combined its [profession-adjective] with love to provide' +
-        'you the most trustable product.'}
+      profileImage={t('profile.image')}
+      profileName={t('profile.name')}
+      profileDescription={t('profile.description')}
 
-      message="Lorem Ipsum"
+      message={t('message')}
 
       imageSections={[
-        { image: 'test.png', comment: 'Testing' },
-        { image: 'test.png', comment: 'Testing' }
+        { image: t('images.1.image'), comment: t('images.1.comment') },
+        { image: t('images.2.image'), comment: t('images.2.comment') },
+        { image: t('images.3.image'), comment: t('images.3.comment') },
+        { image: t('images.4.image'), comment: t('images.4.comment') },
+        { image: t('images.5.image'), comment: t('images.5.comment') },
+        { image: t('images.6.image'), comment: t('images.6.comment') },
+        { image: t('images.7.image'), comment: t('images.7.comment') }
       ]} >
-      <TextSection text="Testing" />
     </HomeTemplate >
   )
 }

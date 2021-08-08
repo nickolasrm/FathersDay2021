@@ -9,6 +9,7 @@ import ImagesSection from '../../components/organisms/ImagesSection'
 import { ImageSection } from '../../interfaces/SectionData'
 import { Spring } from 'react-spring'
 import useTypewriter from '../../hooks/useTypewritter'
+import { useTranslation } from 'react-i18next'
 
 interface HomeTemplateProps {
   /** Text displayed into the first section */
@@ -44,6 +45,8 @@ interface HomeTemplateProps {
 }
 
 const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
+  const { i18n, t } = useTranslation()
+
   /** Visibility states */
   const [isFeaturesSectionVisible, setFeaturesSectionVisible] = useState(false)
 
@@ -60,10 +63,10 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
   /** Typewritter animated texts */
   const titleText = useTypewriter(props.title)
 
-  const readyToMeetItText = useTypewriter('Ready to meet it?', { autostart: false })
+  const readyToMeetItText = useTypewriter(t('ready_to_meet'), { autostart: false })
   const handleReadyToMeetSectionVisible = () => readyToMeetItText.setStarted(true)
 
-  const meetFatherTitle = useTypewriter('Meet ' + props.profileName, {
+  const meetFatherTitle = useTypewriter(t('meet') + props.profileName, {
     autostart: false,
     startsAt: 4
   })
@@ -78,7 +81,7 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
     meetFatherText.setStarted(true)
   }
 
-  const picturesMoreThanWordsText = useTypewriter('We find pictures express more than words!', {
+  const picturesMoreThanWordsText = useTypewriter(t('pictures_more_than_words'), {
     autostart: false
   })
   const handlePicturesMoreThanWordsSectionVisible = () => picturesMoreThanWordsText.setStarted(true)

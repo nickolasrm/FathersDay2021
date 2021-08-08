@@ -1,0 +1,57 @@
+{
+	"title": "Um novo conceito de carro",
+	"description": "Conheça a Nextauto, a nova companhia de carros elétricos de alta performance.",
+	"features": {
+	"1": {
+		"title": "443HP",
+		"subtitle": "Um exemplo de força"
+	},
+	"2": {
+		"title": "Elétrico",
+		"subtitle": "Sempre disponível"
+	},
+	"3": {
+		"title": "Autônomo",
+		"subtitle": "Cuida de você"
+	}},
+	"ready_to_meet": "Pronto para conhecê-lo?",
+	"meet": "Conheça ",
+	"profile": {
+		"image": "pp.jpg",
+		"name": "Fabiano",
+		"description": "Fabiano é nosso favorito primeiro e único projeto. Combinamos sua confiabilidade com amor para prover a você o produto mais confiável possível."
+	},
+	"pictures_more_than_words": "Achamos que fotos expressam mais do que palavras!",
+	"images": {
+		"1": {
+			"image": "1.jpg",
+			"comment": "Começamos com o início. Quando eu era criança tive a oportunidade de conhecer alguém especial, um exemplo, e uma das pessoas mais importantes do mundo para mim. Meu pai." 
+		},
+		"2": {
+			"image": "2.jpg",
+			"comment": "Esse cara me levou para vários lugares diferentes, e em todos eles podia me divertir e conhecer o mundo/natureza."
+		},
+		"3": {
+			"image": "3.jpg",
+			"comment": "Um desses lugares foi o show do Pearl Jam, onde realmente conheci como é boa a sensação de ir a um show e principalmente um de Rock."
+		},
+		"4": {
+			"image": "4.jpg",
+			"comment": "Se em um fazia calor e tinha um monte de gente, esse era o oposto. Frio e vazio. Passar os dias com essa pessoa especial foi ótimo!"
+		},
+		"5": {
+			"image": "5.jpg",
+			"comment": "E como todo pai tem sempre que te ensinar algo, e claro, gostar de carros, essa ai é uma foto do dia em que ele me deu meu Kadett, meu primeiro e amado carro. Com certeza a melhor parte foi quando me ensinou a dirigir e não o carro ;)"
+		},
+		"6": {
+			"image": "6.jpg",
+			"comment": "Esse gnomo ai pode parecer meio carrancudo às vezes, mas ta sempre brincando. Não é a toa que todos gostam da companhia dele, e claro, eu também."
+		},
+		"7": {
+			"image": "7.jpg",
+			"comment": "Como toda familia, nós temos problemas, e a pandemia com certeza foi o que mais atrapalhou a nossa. Mas saiba que independente disso ainda somos filho e pai."
+		}
+	},
+	"message": "Tem muitas coisas que poderia escrever de você, como é proativo, como é amigo, como está sempre disponível para mim... Mas não é necessário, visto que existe uma palavra que descreve isso tudo: Pai. Você é um exemplo de pessoa, de força, e meu amigo. Estamos juntos desde... Sempre. Você que me ensinou a ser viciado em computador ;P e isso me trouxe frutos maravilhosos. Se eu sou quem sou hoje é tudo graças a você e a todo apoio e amor que me deu. Te amo. E feliz dia dos pais.",
+	"credits": "Te amo."
+}
