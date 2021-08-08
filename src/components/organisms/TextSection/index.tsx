@@ -8,10 +8,12 @@ interface TextSectionProps {
   text: string,
   color?: string,
   backgroundColor?: string,
+  onVisible?: () => void
 }
 
 const TextSection: React.FC<TextSectionProps> = (props) => {
   return (<SectionContainer className={Style.Container}
+    onVisible={props.onVisible}
     color={props.color}
     backgroundColor={props.backgroundColor}>
     <Text className={Style.Text}>{props.text}</Text>

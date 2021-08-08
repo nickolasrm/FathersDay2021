@@ -1,6 +1,7 @@
 .Text
 {
 	flex: 1;
+	align-self: flex-start;
 }
 
 .Title 

@@ -2,18 +2,20 @@ import React from 'react'
 import FeatureTitle from '../../atoms/FeatureTitle'
 import Text from '../../atoms/Text'
 import Style from './style.module.css'
+import { animated } from 'react-spring'
 
 interface FeatureProps {
   title: string,
-  subtitle: string
+  subtitle: string,
+  style?: object
 }
 
 const Feature: React.FC<FeatureProps> = (props) => {
-  return (<div className={Style.Feature}>
+  return (<animated.div style={props.style} className={Style.Feature}>
     {props.children}
     <FeatureTitle>{props.title}</FeatureTitle>
     <Text>{props.subtitle}</Text>
-  </div>)
+  </animated.div>)
 }
 
 export default Feature

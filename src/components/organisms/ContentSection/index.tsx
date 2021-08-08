@@ -6,10 +6,13 @@ import Style from './style.module.css'
 interface ContentSectionProps {
   color?: string,
   backgroundColor?: string,
+  onVisible?: () => void
 }
 
 const ContentSection: React.FC<ContentSectionProps> = (props) => {
-  return (<SectionContainer color={props.color} backgroundColor={props.backgroundColor}
+  return (<SectionContainer onVisible={props.onVisible}
+    color={props.color}
+    backgroundColor={props.backgroundColor}
     className={Style.Container}>
     <div className={Style.ChildrenContainer}>
       {props.children}
