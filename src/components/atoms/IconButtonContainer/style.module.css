@@ -1,0 +1,23 @@
+.Container
+{
+	cursor: pointer;
+	transition: opacity 0.2s, transform 0.2s;
+	opacity: 0.6;
+}
+
+.Container *
+{
+	width: 2rem;
+	height: 2rem;
+}
+
+.Container:hover
+{
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.Container:active
+{
+	transform: none;
+}
