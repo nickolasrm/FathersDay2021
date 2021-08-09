@@ -8,7 +8,7 @@ import { Cpu, LightningCharge, GearWideConnected } from 'react-bootstrap-icons'
 import ImagesSection from '../../components/organisms/ImagesSection'
 import { ImageSection } from '../../interfaces/SectionData'
 import { Spring } from 'react-spring'
-import useTypewriter from '../../hooks/useTypewritter'
+import useTypewriter from '../../hooks/useTypewriter'
 import { useTranslation } from 'react-i18next'
 
 interface HomeTemplateProps {

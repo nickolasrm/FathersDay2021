@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
 import './i18n'
-import Loading from '../src/pages/Loading/index'
+import Loading from './pages/Loading'
 
 ReactDOM.render(
   <React.StrictMode>

@@ -7,7 +7,9 @@ interface GoDownButtonProps {
 
 const GoDownButton: React.FC<GoDownButtonProps> = (props) => {
   return (
-    <div className={Style.Container} onClick={props.onClick}>
+    <div data-testid="btn-container"
+      className={Style.Container}
+      onClick={props.onClick}>
       {props.children}
     </div>
   )
