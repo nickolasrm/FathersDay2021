@@ -18,40 +18,40 @@
 	"pp_of": "Profile picture of ",
 	"profile": {
 		"image": "pp.jpg",
-		"name": "Father",
-		"description": "[name] is our favorite first and unique project. It combines [profession-adjective] with love to provide you the most trustable product."
+		"name": "Fabiano",
+		"description": "Fabiano is our favorite first and unique project. It combines reliability with love to provide you the best product ever made."
 	},
 	"pictures_more_than_words": "We find pictures express more than words!",
 	"images": {
 		"1": {
 			"image": "1.jpg",
-			"comment": "A message related to the picture above should be long enough to fill most part of this rectangle." 
+			"comment": "We begin with the beginning. When I was a kid I had the opportunity of meeting someone special, one of the most important persons for me. My father." 
 		},
 		"2": {
 			"image": "2.jpg",
-			"comment": "C2"
+			"comment": "This guy took me to various different places, and in all of them I could have fun and I could learn more about the world/nature."
 		},
 		"3": {
 			"image": "3.jpg",
-			"comment": "C3"
+			"comment": "One of these places was Pearl Jam's concert. it was there where I really discovered how good is the sensation of going to a concert, especially a Rock concert."
 		},
 		"4": {
 			"image": "4.jpg",
-			"comment": "C4"
+			"comment": "If in the last place it was hot and crowded, this one was the opposite. Cold and empty. Spending days with this wonderful person was great!"
 		},
 		"5": {
 			"image": "5.jpg",
-			"comment": "C5"
+			"comment": "And as every father has to teach you something, and of course, to like cars, this is a picture of the day my father gave me my Kadett, my first and beloved car. Of course the best of it was he teaching me and not actually the car ;)"
 		},
 		"6": {
 			"image": "6.jpg",
-			"comment": "C6"
+			"comment": "Like every family, we have problems. The pandemic was for sure what caused most of the problems for us. But know that independently of this, we are still son and father."
 		},
 		"7": {
 			"image": "7.jpg",
-			"comment": "C7"
+			"comment": "Like every family, we have problems, and the pandemic was for sure what caused the most for ours. But know that independently of this, we are still son and father."
 		}
 	},
-	"message": "Message I wrote for my father",
+	"message": "There are so many things I could write about you. How you are proactive, how you're friendly, and how you are always available for me... But it is not necessary, since there's already a word that describes it all: Father. You are an example of a person, an example of strength, and a friend. We are together since... Always. You taught me to be addicted to computers ;p and it brought me wonderful results. If I am who I am today it is all because of you and all support and love you gave me. Happy fathers day!",
 	"credits": "Love you."
 }

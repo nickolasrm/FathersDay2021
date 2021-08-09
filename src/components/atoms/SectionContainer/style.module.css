@@ -1,6 +1,7 @@
 .Container
 {
 	height: 100%;
+	height: 100%;
 
 	padding: 10vmin;
 	padding-bottom: 5vmin;
@@ -11,6 +12,9 @@
 	align-items: center;
 
 	scroll-snap-align: start;
+  overflow-x: hidden;
+  scroll-snap-stop: always;
+	scroll-padding: 0;
 }
 
 @media (orientation: landscape)

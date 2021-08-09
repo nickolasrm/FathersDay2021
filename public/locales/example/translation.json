@@ -1,0 +1,57 @@
+{
+	"title": "A new concept of car",
+	"features": {
+	"1": {
+		"title": "443HP",
+		"subtitle": "An example of power"
+	},
+	"2": {
+		"title": "Electric",
+		"subtitle": "Always available"
+	},
+	"3": {
+		"title": "Self driven",
+		"subtitle": "Takes care of you"
+	}},
+	"ready_to_meet": "Ready to meet it?",
+	"meet": "Meet ",
+	"pp_of": "Profile picture of ",
+	"profile": {
+		"image": "pp.jpg",
+		"name": "Father",
+		"description": "[name] is our favorite first and unique project. It combines [profession-adjective] with love to provide you the most trustable product."
+	},
+	"pictures_more_than_words": "We find pictures express more than words!",
+	"images": {
+		"1": {
+			"image": "1.jpg",
+			"comment": "A message related to the picture above should be long enough to fill most part of this rectangle." 
+		},
+		"2": {
+			"image": "2.jpg",
+			"comment": "C2"
+		},
+		"3": {
+			"image": "3.jpg",
+			"comment": "C3"
+		},
+		"4": {
+			"image": "4.jpg",
+			"comment": "C4"
+		},
+		"5": {
+			"image": "5.jpg",
+			"comment": "C5"
+		},
+		"6": {
+			"image": "6.jpg",
+			"comment": "C6"
+		},
+		"7": {
+			"image": "7.jpg",
+			"comment": "C7"
+		}
+	},
+	"message": "Message I wrote for my father",
+	"credits": "Love you."
+}
