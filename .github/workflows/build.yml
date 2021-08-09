@@ -40,3 +40,14 @@ jobs:
       uses: coverallsapp/github-action@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Pre-Deploy
+      if: ${{ github.ref == 'refs/heads/main' }}
+      run: npm run build
+
+    - name: Deploy
+      if: ${{ github.ref == 'refs/heads/main' }}
+      uses: JamesIves/github-pages-deploy-action@4.1.1
+          branch: gh-pages
+          folder: build
+    
