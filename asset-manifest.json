@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/FathersDay2021/static/css/main.2ffc01f2.chunk.css",
-    "main.js": "/FathersDay2021/static/js/main.5a57eba0.chunk.js",
-    "main.js.map": "/FathersDay2021/static/js/main.5a57eba0.chunk.js.map",
+    "main.css": "/FathersDay2021/static/css/main.57cbef6d.chunk.css",
+    "main.js": "/FathersDay2021/static/js/main.456aa38d.chunk.js",
+    "main.js.map": "/FathersDay2021/static/js/main.456aa38d.chunk.js.map",
     "runtime-main.js": "/FathersDay2021/static/js/runtime-main.f66e565f.js",
     "runtime-main.js.map": "/FathersDay2021/static/js/runtime-main.f66e565f.js.map",
-    "static/js/2.877728e5.chunk.js": "/FathersDay2021/static/js/2.877728e5.chunk.js",
-    "static/js/2.877728e5.chunk.js.map": "/FathersDay2021/static/js/2.877728e5.chunk.js.map",
+    "static/js/2.68d8a750.chunk.js": "/FathersDay2021/static/js/2.68d8a750.chunk.js",
+    "static/js/2.68d8a750.chunk.js.map": "/FathersDay2021/static/js/2.68d8a750.chunk.js.map",
     "index.html": "/FathersDay2021/index.html",
-    "static/css/main.2ffc01f2.chunk.css.map": "/FathersDay2021/static/css/main.2ffc01f2.chunk.css.map",
-    "static/js/2.877728e5.chunk.js.LICENSE.txt": "/FathersDay2021/static/js/2.877728e5.chunk.js.LICENSE.txt",
+    "static/css/main.57cbef6d.chunk.css.map": "/FathersDay2021/static/css/main.57cbef6d.chunk.css.map",
+    "static/js/2.68d8a750.chunk.js.LICENSE.txt": "/FathersDay2021/static/js/2.68d8a750.chunk.js.LICENSE.txt",
     "static/media/getFetch.cjs": "/FathersDay2021/static/media/getFetch.582d29c4.cjs"
   },
   "entrypoints": [
     "static/js/runtime-main.f66e565f.js",
-    "static/js/2.877728e5.chunk.js",
-    "static/css/main.2ffc01f2.chunk.css",
-    "static/js/main.5a57eba0.chunk.js"
+    "static/js/2.68d8a750.chunk.js",
+    "static/css/main.57cbef6d.chunk.css",
+    "static/js/main.456aa38d.chunk.js"
   ]
 }
