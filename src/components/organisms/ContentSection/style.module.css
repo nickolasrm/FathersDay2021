@@ -1,0 +1,15 @@
+.Container {
+	justify-content: center;
+}
+
+.ChildrenContainer {
+	flex: 1;
+	flex-flow: column;
+	justify-content: center;
+}
+
+@media (orientation: landscape) {
+	.ChildrenContainer {
+		flex-flow: row;
+	}
+}
