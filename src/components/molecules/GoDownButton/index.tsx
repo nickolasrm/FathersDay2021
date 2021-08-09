@@ -9,11 +9,7 @@ interface GoDownButtonProps {
 
 const GoDownButton: React.FC<GoDownButtonProps> = (props) => {
   const handleClick = (ev: React.MouseEvent<HTMLElement>) => {
-    window.scrollTo({
-      left: window.scrollX,
-      top: window.scrollY + window.innerHeight,
-      behavior: 'smooth'
-    })
+    window.scrollTo(window.scrollX, window.scrollY + document.documentElement.clientHeight)
   }
 
   return (
