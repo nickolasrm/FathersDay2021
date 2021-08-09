@@ -2,13 +2,14 @@ import React, { useEffect, useRef } from 'react'
 import Style from './style.module.css'
 import useScrollPosition from '@react-hook/window-scroll'
 
-interface SectionContainerProps {
+export interface SectionContainerProps {
   color?: string,
   backgroundColor?: string,
   className?: string,
   onVisible?: () => void
 }
 
+/** Basic section without buttons and content for making specific sections */
 const SectionContainer: React.FC<SectionContainerProps> = (props) => {
   const sectionRef = useRef<HTMLElement>(null)
 

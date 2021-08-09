@@ -1,18 +1,16 @@
 import React from 'react'
 import GoDownButton from '../../molecules/GoDownButton'
-import SectionContainer from '../../atoms/SectionContainer'
+import SectionContainer, { SectionContainerProps } from '../../atoms/SectionContainer'
 import Text from '../../atoms/Text'
 import Style from './style.module.css'
 
-interface TextSectionProps {
+interface TextSectionProps extends SectionContainerProps {
   text: string,
-  color?: string,
-  backgroundColor?: string,
-  onVisible?: () => void
 }
 
+/** A section used to display a long text message */
 const TextSection: React.FC<TextSectionProps> = (props) => {
-  return (<SectionContainer className={Style.Container}
+  return (<SectionContainer className={Style.Container + ' ' + (props.className || '')}
     onVisible={props.onVisible}
     color={props.color}
     backgroundColor={props.backgroundColor}>

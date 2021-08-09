@@ -10,6 +10,7 @@ interface FeatureProps {
   style?: object
 }
 
+/** An title and subtitle container for children description */
 const Feature: React.FC<FeatureProps> = (props) => {
   return (<animated.div style={props.style} className={Style.Feature}>
     {props.children}

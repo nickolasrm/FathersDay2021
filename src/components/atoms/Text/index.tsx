@@ -5,6 +5,7 @@ interface TextProps {
   className?: string
 }
 
+/** Styled p */
 const Text: React.FC<TextProps> = (props) => {
   return (<p className={Style.Text + ' ' + (props.className || '')}>
     {props.children}

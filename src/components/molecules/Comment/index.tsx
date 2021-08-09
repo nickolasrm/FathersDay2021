@@ -13,6 +13,7 @@ interface CommentProps {
   isLast: boolean
 }
 
+/** A rectangle with an arrow right button */
 const Comment: React.FC<CommentProps> = (props) => {
   return (<div style={{ backgroundColor: props.backgroundColor || 'white' }}
     className={Style.Container + ' ' + (props.className || '')}>

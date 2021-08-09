@@ -49,6 +49,7 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
 
   /** Visibility states */
   const [isFeaturesSectionVisible, setFeaturesSectionVisible] = useState(false)
+  const handleFeaturesSectionVisible = () => setFeaturesSectionVisible(true)
 
   /** Base animation for features */
   const featureAnim = {
@@ -99,7 +100,7 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
 
     <ContentSection color='white'
       backgroundColor='var(--loading-background)'
-      onVisible={useCallback(() => setFeaturesSectionVisible(true), [])}>
+      onVisible={handleFeaturesSectionVisible}>
       {isFeaturesSectionVisible
         ? <>
           <Spring {...featureAnim}>
