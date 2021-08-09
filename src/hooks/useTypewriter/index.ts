@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-interface TypewriterProps {
+export interface TypewriterProps {
   autostart?: boolean,
   interval?: number,
   delay?: number
