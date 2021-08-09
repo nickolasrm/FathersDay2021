@@ -7,7 +7,9 @@ interface GoDownButtonProps {
   size?: number
 }
 
+/** Button containing a triangle and scrolls page down if onClick not defined */
 const GoDownButton: React.FC<GoDownButtonProps> = (props) => {
+  /** Scrolls page down in viewport height pixels */
   const handleClick = (ev: React.MouseEvent<HTMLElement>) => {
     window.scrollTo(window.scrollX, window.scrollY + document.documentElement.clientHeight)
   }

@@ -7,6 +7,7 @@ interface ImageProps {
   alt: string
 }
 
+/** A cover image with src pointed to public/images */
 const Image: React.FC<ImageProps> = (props) => {
   return (<img className={Style.Image + ' ' + (props.className || '')}
     src={'images/' + props.file}

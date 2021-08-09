@@ -1,19 +1,19 @@
 import React from 'react'
 import GoDownButton from '../../molecules/GoDownButton'
-import SectionContainer from '../../atoms/SectionContainer'
+import SectionContainer, { SectionContainerProps } from '../../atoms/SectionContainer'
 import Title from '../../atoms/Title'
 import Style from './style.module.css'
 
-interface TitleSectionProps {
+interface TitleSectionProps extends SectionContainerProps {
   title: string,
-  color?: string,
-  backgroundColor?: string,
+  /** Removes GoDownButton if true */
   last?: boolean,
-  onVisible?: () => void
 }
 
+/** Section used to display a title only */
 const TitleSection: React.FC<TitleSectionProps> = (props) => {
   return (<SectionContainer onVisible={props.onVisible}
+    className={props.className || ''}
     color={props.color}
     backgroundColor={props.backgroundColor}>
     <Title className={Style.Title}>{props.title}</Title>

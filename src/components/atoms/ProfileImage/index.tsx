@@ -9,6 +9,7 @@ interface ProfileImageProps {
   alt: string
 }
 
+/** A rounded image with src pointed to public/images */
 const ProfileImage: React.FC<ProfileImageProps> = (props) => {
   return (<img className={Style.Image + ' ' + (props.className || '')}
     src={'images/' + props.file}

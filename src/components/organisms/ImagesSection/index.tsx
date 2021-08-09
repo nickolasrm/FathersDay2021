@@ -2,15 +2,14 @@ import React, { useState } from 'react'
 import { ImageSection } from '../../../interfaces/SectionData'
 import Image from '../../atoms/Image'
 import Comment from '../../molecules/Comment'
-import SectionContainer from '../../atoms/SectionContainer'
+import SectionContainer, { SectionContainerProps } from '../../atoms/SectionContainer'
 import Style from './style.module.css'
 
-interface ImagesSectionProps {
-  color?: string,
-  backgroundColor?: string,
+interface ImagesSectionProps extends SectionContainerProps {
   images: ImageSection[]
 }
 
+/** Holds and displays multiple images and comments in slide style. */
 const ImagesSection: React.FC<ImagesSectionProps> = (props) => {
   const [pictureIndex, setPictureIndex] = useState(0)
 
@@ -25,7 +24,7 @@ const ImagesSection: React.FC<ImagesSectionProps> = (props) => {
     else return false
   }
 
-  return (<SectionContainer className={Style.Container}
+  return (<SectionContainer className={Style.Container + ' ' + (props.className || '')}
     color={props.color}
     backgroundColor={props.backgroundColor}>
     <div style={{
@@ -46,6 +45,7 @@ const ImagesSection: React.FC<ImagesSectionProps> = (props) => {
             ? undefined
             : handleClick}
             backgroundColor='white'
+            className={Style.Comment}
             text={el.comment}
             isLast={isLast(index)} />
         </div>)

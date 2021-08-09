@@ -7,13 +7,11 @@ interface GoRightButtonProps {
   size?: number
 }
 
+/** Button containing a triangle and scrolls page down if onClick not defined */
 const GoRightButton: React.FC<GoRightButtonProps> = (props) => {
+  /** Scrolls page down in viewport height pixels */
   const handleClick = (ev: React.MouseEvent<HTMLElement>) => {
-    window.scrollTo({
-      left: window.scrollX + window.innerWidth,
-      top: window.scrollY,
-      behavior: 'smooth'
-    })
+    window.scrollTo(window.scrollX + document.documentElement.clientWidth, window.scrollY)
   }
 
   return (<IconButtonContainer onClick={props.onClick || handleClick}>

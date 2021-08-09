@@ -1,8 +1,5 @@
 .Container 
 {
-	width: 100%;
-	height: 35%;
-
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;

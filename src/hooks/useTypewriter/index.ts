@@ -1,9 +1,14 @@
 import { useEffect, useState } from 'react'
 
 export interface TypewriterProps {
+  /** If disabled, should use the setStarted function returned by the hook */
   autostart?: boolean,
+  /** Between each key typed in ms */
   interval?: number,
+  /** Before first key typed */
   delay?: number
+  /** Character the effect will start.
+   * e.g. 'Test' and startsAt 2 results into Te -> Tes -> Test  */
   startsAt?: number
 }
 
