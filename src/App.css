@@ -10,8 +10,8 @@ html, body, #root, main
 
   scroll-snap-type: both mandatory;
   scroll-behavior: smooth;
-  
 }
+
 body::-webkit-scrollbar, main::-webkit-scrollbar
 {
   display: none;
@@ -20,4 +20,9 @@ body::-webkit-scrollbar, main::-webkit-scrollbar
 div, section
 {
   display: flex;
+}
+
+section
+{
+  overflow-x: hidden;
 }

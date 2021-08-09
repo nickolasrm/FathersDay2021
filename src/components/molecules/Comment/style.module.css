@@ -14,4 +14,10 @@
 .Comment
 {
 	flex: 1;
+
+	margin: auto;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

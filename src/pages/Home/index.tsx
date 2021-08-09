@@ -1,10 +1,9 @@
 import React from 'react'
 import HomeTemplate from '../../templates/HomeTemplate'
-import TextSection from '../../components/organisms/TextSection'
 import { useTranslation } from 'react-i18next'
 
 const Home: React.FC = (props) => {
-  const { i18n, t } = useTranslation()
+  const { t } = useTranslation()
 
   return (
     <HomeTemplate

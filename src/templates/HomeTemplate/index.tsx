@@ -45,7 +45,7 @@ interface HomeTemplateProps {
 }
 
 const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
-  const { i18n, t } = useTranslation()
+  const { t } = useTranslation()
 
   /** Visibility states */
   const [isFeaturesSectionVisible, setFeaturesSectionVisible] = useState(false)
@@ -68,7 +68,7 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
 
   const meetFatherTitle = useTypewriter(t('meet') + props.profileName, {
     autostart: false,
-    startsAt: 4
+    startsAt: t('meet').length
   })
   const meetFatherText = useTypewriter(props.profileDescription, {
     autostart: false,
@@ -95,10 +95,10 @@ const HomeTemplate: React.FC<HomeTemplateProps> = (props) => {
   return (<>
     <TitleSection title={titleText.text}
       color='white'
-      backgroundColor='#212121' />
+      backgroundColor='var(--loading-background)' />
 
     <ContentSection color='white'
-      backgroundColor='#212121'
+      backgroundColor='var(--loading-background)'
       onVisible={useCallback(() => setFeaturesSectionVisible(true), [])}>
       {isFeaturesSectionVisible
         ? <>
