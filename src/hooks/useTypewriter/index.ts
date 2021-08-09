@@ -24,16 +24,19 @@ const useTypewriter = (text: string, props?: TypewriterProps) => {
   const [started, setStarted] = useState(autostart)
 
   useEffect(() => {
+    let isSubscribed = true
+
     if (started) {
-      if (delay > 0) setTimeout(() => setDelay(0), delay)
+      if (delay > 0 && isSubscribed) setTimeout(() => setDelay(0), delay)
       else {
         setTimeout(() => {
           const end = Math.min(index + 1, text.length)
-          if (end <= text.length) setIndex(Math.min(index + 1))
-          if (delay > 0) setDelay(0)
+          if (end <= text.length && isSubscribed) setIndex(Math.min(index + 1))
         }, interval)
       }
     }
+
+    return () => { isSubscribed = false }
   }, [index, interval, started, text, delay])
 
   const typewriterText = (): string => {
