@@ -18,22 +18,22 @@
 	"pp_of": "Profile picture of ",
 	"profile": {
 		"image": "pp.jpg",
-		"name": "Fabiano",
-		"description": "Fabiano is our favorite first and unique project. It combines reliability with love to provide you the most trustable product."
+		"name": "Father",
+		"description": "[name] is our favorite first and unique project. It combines [profession-adjective] with love to provide you the most trustable product."
 	},
 	"pictures_more_than_words": "We find pictures express more than words!",
 	"images": {
 		"1": {
 			"image": "1.jpg",
-			"comment": "We begin with the beginning. When I was a kid I had the opportunity of meeting someone special, an example, and one of the most important persons for me. My father." 
+			"comment": "A message related to the picture above should be long enough to fill most part of this rectangle." 
 		},
 		"2": {
 			"image": "2.jpg",
-			"comment": "This guy took me to various different places, and in all of them I could have fun and I could learn more about the world/nature."
+			"comment": "C2"
 		},
 		"3": {
 			"image": "3.jpg",
-			"comment": "One of these places was Pearl Jam's concert. it was there where I really discovered how good is the sensation of going to a concert, especially a Rock concert"
+			"comment": "C3"
 		},
 		"4": {
 			"image": "4.jpg",
