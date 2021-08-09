@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import React, { useState } from 'react'
 import TextSection from '../../components/organisms/TextSection'
 import TitleSection from '../../components/organisms/TitleSection'
 import ContentSection from '../../components/organisms/ContentSection'
