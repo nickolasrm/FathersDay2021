@@ -39,11 +39,11 @@ Follow these steps:
 
 3. Clone your fork into your computer, open the terminal into the app root folder, run `npm install` and `npm run`.
 
-4. Explore the website sections to see what texts should be changed.
+4. Go to `src/public/locales`, duplicate the `example` folder if your target language is not english or portuguese, otherwise duplicate it and rename it for the target language code. You can find your language code [here](http://www.lingoes.net/en/translator/langcode.htm).
 
-5. Go to `src/public/locales`, duplicate the `en` folder if your target language is not english, otherwise duplicate it and rename it for the target language code. You can find your language code [here](http://www.lingoes.net/en/translator/langcode.htm).
+5. Explore the website sections to see what texts should be changed.
 
-6. Make sure your browser is configured to be in the same language as the target language, otherwise it will go back to english.
+6. Make sure your browser is configured to be in the same language as the target language, otherwise it will turn back to english.
 
 7. Open the file `translation.json` located at the folder you just duplicated and replace the values with the proper translation or messages you want into your page.
 > NOTE: Every image field is related to an image into `public/images`

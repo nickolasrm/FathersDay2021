@@ -25,7 +25,8 @@ i18n
     backend: {
       loadPath: () => {
         const path = window.location.pathname.split('/')[1]
-        return '/' + path + '/locales/{{lng}}/{{ns}}.json'
+        const slash = process.env.NODE_ENV === 'production' ? '/' : ''
+        return slash + path + '/locales/{{lng}}/{{ns}}.json'
       }
     },
     interpolation: {
