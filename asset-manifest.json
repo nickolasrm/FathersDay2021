@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/FathersDay2021/static/css/main.3cddf512.chunk.css",
-    "main.js": "/FathersDay2021/static/js/main.34ca4573.chunk.js",
-    "main.js.map": "/FathersDay2021/static/js/main.34ca4573.chunk.js.map",
+    "main.js": "/FathersDay2021/static/js/main.5a57eba0.chunk.js",
+    "main.js.map": "/FathersDay2021/static/js/main.5a57eba0.chunk.js.map",
     "runtime-main.js": "/FathersDay2021/static/js/runtime-main.f66e565f.js",
     "runtime-main.js.map": "/FathersDay2021/static/js/runtime-main.f66e565f.js.map",
     "static/js/2.877728e5.chunk.js": "/FathersDay2021/static/js/2.877728e5.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.f66e565f.js",
     "static/js/2.877728e5.chunk.js",
     "static/css/main.3cddf512.chunk.css",
-    "static/js/main.34ca4573.chunk.js"
+    "static/js/main.5a57eba0.chunk.js"
   ]
 }
