@@ -1,12 +1,33 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nickolasrm/FathersDay2021/main/public/logo512.png" width="200px" />
+</p>
+
+<div align="center">
+  <img src="https://github.com/nickolasrm/FathersDay2021/actions/workflows/build.yml/badge.svg" />
+  <a href='https://coveralls.io/github/nickolasrm/FathersDay2021?branch=main'><img src='https://coveralls.io/repos/github/nickolasrm/FathersDay2021/badge.svg?branch=main'     alt='Coverage Status' /></a>
+</div>
+
 ## Happy Fathers Day 2021! 🎉🎉
 
-We are all passing through bad times recently. Pandemic made life hard for everyone. For some, it may have made your relationship with your father closer, for some, the opposite, and for some impossible. However, it doesn't mean you cannot tell your father you love him, even if he's not here anymore. 
+We are all passing through bad times recently. Covid-19 pandemic made life hard for everyone. For some, it may have made your relationship with your father closer, for others, the opposite or even impossible. However, it doesn't mean you cannot tell your father you love him, even if he's not here anymore. 
 
-> This is my way of doing it, what is yours?
+**This is my way of doing it, what is yours?**
+
+## GIFs
+
+_Desktop visualization_
+
+<img src="https://github.com/nickolasrm/FathersDay2021/blob/main/screenshots/overview.gif" />
+
+_Mobile visualization_
+
+<img height="600px" src="https://github.com/nickolasrm/FathersDay2021/blob/main/screenshots/mobile.gif" />
 
 ## What is this?
 
-This is a website I made using Typescript and React to fool my father making to think it is a car announcement website, but it is actually a tribute to him.
+This is a website I made using Typescript and React for fooling my father making him to think it is a car announcement website, but it is actually a tribute to him.
+
+You can check the project out [here](https://nickolasrm.github.io/FathersDay2021/)
 
 ## I liked the idea, how do I do the same?
 
@@ -62,3 +83,7 @@ After that, deploy it to a GitHub Pages environment or build it and host it on a
 ## Credits
 
 Made with lots of love by nickolasrm ❤️
+
+## References
+
+- [Figma draft](https://www.figma.com/community/file/1005919725129949371)
