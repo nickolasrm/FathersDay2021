@@ -1,7 +1,7 @@
 {
   "name": "fathersday2021",
   "version": "1.0.0",
-  "homepage": ".",
+  "homepage": "https://nickolasrm.github.io/FathersDay2021",
   "private": true,
   "dependencies": {
     "@react-hook/window-scroll": "^1.3.0",
@@ -28,7 +28,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "citest": "react-scripts test --coverage --watchAll=false"
+    "citest": "react-scripts test --coverage --watchAll=false",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -58,6 +60,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.24.0",
+    "gh-pages": "^3.2.3",
     "tslint-config-standard": "^9.0.0",
     "typescript-plugin-css-modules": "^3.4.0"
   }

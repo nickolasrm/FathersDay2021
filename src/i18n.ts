@@ -22,7 +22,12 @@ i18n
   .init({
     fallbackLng: 'en',
     debug: true,
-
+    backend: {
+      loadPath: () => {
+        const path = window.location.pathname.split('/')[1]
+        return '/' + path + '/locales/{{lng}}/{{ns}}.json'
+      }
+    },
     interpolation: {
       escapeValue: false // not needed for react as it escapes by default
     }
