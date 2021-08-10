@@ -25,7 +25,10 @@ i18n
     backend: {
       loadPath: () => {
         const path = window.location.pathname.split('/')[1]
-        const slash = process.env.NODE_ENV === 'production' ? '/' : ''
+        const slash = (process.env.NODE_ENV === 'production' &&
+          process.env.IS_GITHUB_PAGES_DEPLOY === 'true')
+          ? '/'
+          : ''
         return slash + path + '/locales/{{lng}}/{{ns}}.json'
       }
     },

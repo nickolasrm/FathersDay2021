@@ -1,7 +1,7 @@
 {
   "name": "fathersday2021",
-  "version": "1.0.0",
-  "homepage": "https://nickolasrm.github.io/FathersDay2021",
+  "version": "1.0.1",
+  "homepage": "http://nextauto.tech",
   "private": true,
   "dependencies": {
     "@react-hook/window-scroll": "^1.3.0",
