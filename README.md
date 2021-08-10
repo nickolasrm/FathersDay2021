@@ -80,6 +80,16 @@ Example of customization:
 
 After that, deploy it to a GitHub Pages environment or build it and host it on a static website hosting service.
 
+### GitHub Pages deploy
+
+1. Change the `.env.production` `IS_GITHUB_PAGES_DEPLOY` value to `true`
+ 
+2. Change `package.json` `homepage` value to `YOUR_USERNAME.github.io/FathersDay2021/`
+ 
+3. Delete the `CNAME` file located at `public` folder.
+
+4. Run `npm run deploy` or push it to main branch
+
 ## Credits
 
 Made with lots of love by nickolasrm ❤️
